@@ -33,7 +33,7 @@ contract ExampleNftPool is Ownable, ReentrancyGuard {
 
     uint256 public lastRewardBlock;
 
-    uint256 public distributeTokenPerBlock = 3e18; // 1 token per block
+    uint256 public distributeTokenPerBlock = 3e18; // 3 token per block
 
     uint256 public COMMON_BOOST = 1;
     uint256 public RARE_BOOST = 2;
